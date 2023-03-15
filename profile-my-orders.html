@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>My orders</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230315004824">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<a href="index.html" class="header__logo-img">
+						<img src="img/logo/mainLogo.svg" alt="logo" />
+					</a>
+					<div class="header__logo-text">HorDog</div>
+					<div class="header__search search-header">
+						<form action="#" class="search-header__form">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Поиск" class="search-header__input" />
+							<button type="submit" class="search-header__button _icon-search"></button>
+						</form>
+					</div>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<div class="menu__block-catalog block-catalog">
+								<div class="block-catalog__name _burger-open _icon-catalog">Каталог</div>
+								<div class="block-catalog__body">
+									<button type="button" class="block-catalog__back _burger-close _icon-left-arrow">Каталог</button>
+									<ul class="block-catalog__list">
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-box.webp" type="image/webp"><img src="img/pics/cat-box.png" alt="" /></picture>
+												<span>Наборы</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Наборы</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Жилы</a>
+													</li>
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Калтык</a>
+													</li>
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Копыто</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-bone.webp" type="image/webp"><img src="img/pics/cat-bone.png" alt="" /></picture>
+												<span>Лакомства</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Лакомства</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Жилы</a>
+													</li>
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Калтык</a>
+													</li>
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Копыто</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-acsess.webp" type="image/webp"><img src="img/pics/cat-acsess.png" alt="" /></picture>
+												<span>Аксессуары</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Аксессуары</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Жилы</a>
+													</li>
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Калтык</a>
+													</li>
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Копыто</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-toys.webp" type="image/webp"><img src="img/pics/cat-toys.png" alt="" /></picture>
+												<span>Игрушки</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Игрушки</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-roga.webp" type="image/webp"><img src="img/pics/cat-roga.png" alt="" /></picture>
+												<span>Рога</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Рога</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-oil.webp" type="image/webp"><img src="img/pics/cat-oil.png" alt="" /></picture>
+												<span>Масла</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Масла</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-cow.webp" type="image/webp"><img src="img/pics/cat-cow.png" alt="" /></picture>
+												<span>Говядина</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Говядина</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-pig.webp" type="image/webp"><img src="img/pics/cat-pig.png" alt="" /></picture>
+												<span>Свинина</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Свинина</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-horse.webp" type="image/webp"><img src="img/pics/cat-horse.png" alt="" /></picture>
+												<span>Конина</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Конина</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-sheep.webp" type="image/webp"><img src="img/pics/cat-sheep.png" alt="" /></picture>
+												<span>Баранина</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Баранина</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-deer.webp" type="image/webp"><img src="img/pics/cat-deer.png" alt="" /></picture>
+												<span>Оленина</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Оленина</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-goat.webp" type="image/webp"><img src="img/pics/cat-goat.png" alt="" /></picture>
+												<span>Козлятина</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Козлятина</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-rabbit.webp" type="image/webp"><img src="img/pics/cat-rabbit.png" alt="" /></picture>
+												<span>Крольчатина</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Крольчатина</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-chicken.webp" type="image/webp"><img src="img/pics/cat-chicken.png" alt="" /></picture>
+												<span>Курятина</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Курятина</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-duck.webp" type="image/webp"><img src="img/pics/cat-duck.png" alt="" /></picture>
+												<span>Утятина</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Утятина</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-goose.webp" type="image/webp"><img src="img/pics/cat-goose.png" alt="" /></picture>
+												<span>Гусятина</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Гусятина</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-fish.webp" type="image/webp"><img src="img/pics/cat-fish.png" alt="" /></picture>
+												<span>Рыба</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Рыба</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-perepel.webp" type="image/webp"><img src="img/pics/cat-perepel.png" alt="" /></picture>
+												<span>Перепелка</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Перепелка</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="block-catalog__list-item">
+											<div class="block-catalog__list-title _burger-open _icon-right-arrow">
+												<picture><source srcset="img/pics/cat-yak.webp" type="image/webp"><img src="img/pics/cat-yak.png" alt="" /></picture>
+												<span>Як</span>
+											</div>
+											<div class="block-catalog__sublist-block">
+												<button type="button" class="block-catalog__sublist-back _burger-close _icon-left-arrow">Як</button>
+												<ul class="block-catalog__sublist">
+													<li class="block-catalog__item">
+														<a href="subCatalog.html" class="block-catalog__link">Желудочки</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="favorites.html" class="menu__link">
+										<img src="img/pics/favorites.svg" alt="" />
+										<span>12</span>
+										<p>Избранное</p>
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="cart.html" class="menu__link">
+										<img src="img/pics/cart.svg" alt="" />
+										<span>2</span>
+										<p>Корзина</p>
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="profile.html" data-popup="#popupSignIn" class="menu__link">
+										<img src="img/pics/profile.svg" alt="" />
+										<p>Профиль</p>
+									</a>
+								</li>
+							</ul>
+							<div class="menu__support support-block">
+								<div class="support-block__text _icon-support">
+									<div class="support-block__text-body">
+										<p class="support-block__text_black">Остались вопросы?</p>
+										<p class="support-block__text_gray">Обратитесь в нашу службу поддержки</p>
+									</div>
+								</div>
+								<a href="" data-popup="#popupFeedback" class="support-block__button">Перейти</a>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<div class="page__container">
+				<div class="myOrders">
+					<a href="profile.html" class="back-link _icon-left-arrow">Назад</a>
+					<h1 class="myOrders__title page-title">Мои заказы</h1>
+					<section class="myOrders__orders">
+						<h3 class="myOrders__subtitle regular-title">Заказы</h3>
+						<a href="profile-order-page1.html" class="myOrders__order profile-order">
+							<div class="profile-order__top">
+								<div class="profile-order__data">
+									<div class="profile-order__title">
+										<span>Заказ № </span>
+										<span class="profile-order__number">03825208-0004</span>
+									</div>
+									<div class="profile-order__date">4 сен 2021</div>
+									<div class="profile-order__status delivered">Доставляется</div>
+								</div>
+								<div class="profile-order__amount">2 740 $</div>
+							</div>
+							<div class="profile-order__bottom">
+								<div class="profile-order__delivery">
+									<div class="profile-order__delivery-method _icon-truck">Доставка в пункт выдачи</div>
+									<div class="profile-order__delivery-date _icon-calendar">Можно забрать 12 сентября</div>
+								</div>
+								<div class="profile-order__goods">
+									<div class="profile-order__goods-item">
+										<picture><source srcset="img/items/hits/01.webp" type="image/webp"><img src="img/items/hits/01.png" alt="" /></picture>
+									</div>
+									<div class="profile-order__goods-item">
+										<picture><source srcset="img/items/hits/03.webp" type="image/webp"><img src="img/items/hits/03.png" alt="" /></picture>
+									</div>
+									<div class="profile-order__goods-item profile-order__goods-number">+3</div>
+								</div>
+							</div>
+						</a>
+						<a href="profile-order-page2.html" class="myOrders__order profile-order">
+							<div class="profile-order__top">
+								<div class="profile-order__data">
+									<div class="profile-order__title">
+										<span>Заказ № </span>
+										<span class="profile-order__number">08647688-0123</span>
+									</div>
+									<div class="profile-order__date">21 окт 2021</div>
+									<div class="profile-order__status processed">Обрабатывается</div>
+								</div>
+								<div class="profile-order__amount">990 $</div>
+							</div>
+							<div class="profile-order__bottom">
+								<div class="profile-order__delivery">
+									<div class="profile-order__delivery-method _icon-truck">Доставка курером</div>
+									<div class="profile-order__delivery-date _icon-calendar">Достявят 23 октября</div>
+								</div>
+								<div class="profile-order__goods">
+									<div class="profile-order__goods-item">
+										<picture><source srcset="img/items/hits/03.webp" type="image/webp"><img src="img/items/hits/03.png" alt="" /></picture>
+									</div>
+									<div class="profile-order__goods-item">
+										<picture><source srcset="img/items/hits/04.webp" type="image/webp"><img src="img/items/hits/04.png" alt="" /></picture>
+									</div>
+								</div>
+							</div>
+						</a>
+					</section>
+					<section class="myOrders__bought">
+						<div class="myOrders__bought-title regular-title">Купленные товары</div>
+						<div class="myOrders__bought-content">
+							<div class="myOrders__bought-item product-card product-card_discount">
+								<div class="product-card__body">
+									<div class="product-card__favourite _icon-favorites-fill">
+										<img src="img/pics/favorites.svg" alt="" />
+									</div>
+									<div class="product-card__discount">-30%</div>
+									<a href="product-page.html" class="product-card__image">
+										<picture><source srcset="img/items/delicacies/01.webp" type="image/webp"><img src="img/items/delicacies/01.png" alt="" /></picture>
+									</a>
+									<div class="product-card__price">
+										<span>1200 $</span>
+										<p>840 $</p>
+									</div>
+									<div class="product-card__count">1 шт</div>
+									<a href="product-page.html" class="product-card__title"> Рога оленя для собак весом от 10 до 30 кг. Размер L </a>
+									<button type="button" class="product-card__button">В корзину</button>
+								</div>
+							</div>
+							<div class="myOrders__bought-item product-card">
+								<div class="product-card__body">
+									<div class="product-card__favourite _icon-favorites-fill">
+										<img src="img/pics/favorites.svg" alt="" />
+									</div>
+									<div class="product-card__discount"></div>
+									<a href="product-page.html" class="product-card__image">
+										<picture><source srcset="img/items/delicacies/02.webp" type="image/webp"><img src="img/items/delicacies/02.png" alt="" /></picture>
+									</a>
+									<div class="product-card__price">
+										<span></span>
+										<p>450 $</p>
+									</div>
+									<div class="product-card__count">200 мл</div>
+									<a href="product-page.html" class="product-card__title"> Сельдевое масло </a>
+									<button type="button" class="product-card__button">В корзину</button>
+								</div>
+							</div>
+							<div class="myOrders__bought-item product-card product-card_discount">
+								<div class="product-card__body">
+									<div class="product-card__favourite _icon-favorites-fill">
+										<img src="img/pics/favorites.svg" alt="" />
+									</div>
+									<div class="product-card__discount">-10%</div>
+									<a href="product-page.html" class="product-card__image">
+										<picture><source srcset="img/items/delicacies/03.webp" type="image/webp"><img src="img/items/delicacies/03.png" alt="" /></picture>
+									</a>
+									<div class="product-card__price">
+										<span>550 $</span>
+										<p>495 $</p>
+									</div>
+									<div class="product-card__count">100 г</div>
+									<a href="product-page.html" class="product-card__title"> Бублик из бычьего корня </a>
+									<button type="button" class="product-card__button">В корзину</button>
+								</div>
+							</div>
+							<div class="myOrders__bought-item product-card product-card_new">
+								<div class="product-card__body">
+									<div class="product-card__favourite _icon-favorites-fill">
+										<img src="img/pics/favorites.svg" alt="" />
+									</div>
+									<div class="product-card__discount product-card__discount_new">Новинка</div>
+									<div class="product-card__image">
+										<picture><source srcset="img/items/delicacies/04.webp" type="image/webp"><img src="img/items/delicacies/04.png" alt="" /></picture>
+									</div>
+									<div class="product-card__price">
+										<span></span>
+										<p>240 $</p>
+									</div>
+									<div class="product-card__count">1 шт</div>
+									<a href="#" class="product-card__title"> Лопаточный хрящ говяжий для собак </a>
+									<button type="button" class="product-card__button">В корзину</button>
+								</div>
+							</div>
+							<div class="myOrders__bought-item product-card product-card_discount">
+								<div class="product-card__body">
+									<div class="product-card__favourite _icon-favorites-fill">
+										<img src="img/pics/favorites.svg" alt="" />
+									</div>
+									<div class="product-card__discount">-30%</div>
+									<div class="product-card__image">
+										<picture><source srcset="img/items/delicacies/02.webp" type="image/webp"><img src="img/items/delicacies/02.png" alt="" /></picture>
+									</div>
+									<div class="product-card__price">
+										<span>1200 $</span>
+										<p>450 $</p>
+									</div>
+									<div class="product-card__count">1 шт</div>
+									<a href="#" class="product-card__title"> Рога оленя для собак весом от 10 до 30 кг. Размер L </a>
+									<button type="button" class="product-card__button">В корзину</button>
+								</div>
+							</div>
+							<div class="myOrders__bought-item product-card">
+								<div class="product-card__body">
+									<div class="product-card__favourite _icon-favorites-fill">
+										<img src="img/pics/favorites.svg" alt="" />
+									</div>
+									<div class="product-card__discount">-30%</div>
+									<div class="product-card__image">
+										<picture><source srcset="img/items/delicacies/03.webp" type="image/webp"><img src="img/items/delicacies/03.png" alt="" /></picture>
+									</div>
+									<div class="product-card__price">
+										<span>550 $</span>
+										<p>495 $</p>
+									</div>
+									<div class="product-card__count">1 шт</div>
+									<a href="#" class="product-card__title"> Рога оленя для собак весом от 10 до 30 кг. Размер L </a>
+									<button type="button" class="product-card__button">В корзину</button>
+								</div>
+							</div>
+							<div class="myOrders__bought-item product-card">
+								<div class="product-card__body">
+									<div class="product-card__favourite _icon-favorites-fill">
+										<img src="img/pics/favorites.svg" alt="" />
+									</div>
+									<div class="product-card__discount"></div>
+									<a href="#" class="product-card__image">
+										<picture><source srcset="img/items/delicacies/02.webp" type="image/webp"><img src="img/items/delicacies/02.png" alt="" /></picture>
+									</a>
+									<div class="product-card__price">
+										<span></span>
+										<p>450 $</p>
+									</div>
+									<div class="product-card__count">200 мл</div>
+									<a href="#" class="product-card__title"> Сельдевое масло </a>
+									<button type="button" class="product-card__button">В корзину</button>
+								</div>
+							</div>
+							<div class="myOrders__bought-item product-card product-card_discount">
+								<div class="product-card__body">
+									<div class="product-card__favourite _icon-favorites-fill">
+										<img src="img/pics/favorites.svg" alt="" />
+									</div>
+									<div class="product-card__discount">-10%</div>
+									<a href="#" class="product-card__image">
+										<picture><source srcset="img/items/delicacies/03.webp" type="image/webp"><img src="img/items/delicacies/03.png" alt="" /></picture>
+									</a>
+									<div class="product-card__price">
+										<span>550 $</span>
+										<p>495 $</p>
+									</div>
+									<div class="product-card__count">100 г</div>
+									<a href="#" class="product-card__title"> Бублик из бычьего корня </a>
+									<button type="button" class="product-card__button">В корзину</button>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__item item-footer">
+						<div class="item-footer__content">
+							<div class="item-footer__logo">
+								<a href="index.html" class="item-footer__logo-img">
+									<img src="img/logo/mainLogo.svg" alt="logo" />
+								</a>
+								<div class="item-footer__logo-text">HorDog</div>
+							</div>
+							<div class="item-footer__text">© «Интернет-магазин натуральных лакомств для собак HorDog.com»</div>
+						</div>
+					</div>
+					<div class="footer__item item-footer">
+						<ul data-da=".menu__body,767.98,1" class="item-footer__list item-footer__list_t">
+							<li class="item-footer__list-item">
+								<a href="catalog.html" class="item-footer__link item-footer__link_k">Каталог</a>
+							</li>
+							<li class="item-footer__list-item">
+								<a href="promotions.html" class="item-footer__link _icon-stock">Акции</a>
+							</li>
+							<li class="item-footer__list-item">
+								<a href="news.html" class="item-footer__link _icon-quality">Новости</a>
+							</li>
+							<li class="item-footer__list-item">
+								<a href="reviews.html" class="item-footer__link _icon-comments">Отзывы</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__item item-footer">
+						<ul data-da=".menu__body,767.98,2" class="item-footer__list">
+							<li class="item-footer__list-item">
+								<a href="delivery.html" class="item-footer__link">Оплата и доставка</a>
+							</li>
+							<li class="item-footer__list-item">
+								<a href="faq.html" class="item-footer__link">Часто спрашивают</a>
+							</li>
+							<li class="item-footer__list-item">
+								<a href="" data-popup="#popupFeedback" class="item-footer__link">Обратная связь</a>
+							</li>
+							<li class="item-footer__list-item">
+								<a href="contacts.html" class="item-footer__link">Контакты</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__item item-footer">
+						<div class="item-footer__content">
+							<div class="item-footer__title">Мы всегда на связи</div>
+							<a href="tel:13007777777" class="item-footer__phone">1 (300) 777-77-77</a>
+							<a href="mailto:hordog.com@gmail.com" class="item-footer__email">hordog.com@gmail.com</a>
+							<div class="item-footer__socials">
+								<a href="" class="item-footer__sicials-item _icon-telegram"></a>
+								<a href="" class="item-footer__sicials-item _icon-whatsapp"></a>
+								<a href="" class="item-footer__sicials-item _icon-viber"></a>
+								<a href="" class="item-footer__sicials-item _icon-instagram"></a>
+								<a href="" class="item-footer__sicials-item _icon-whatsapp"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<div id="popupSignIn" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close _icon-ic-close"></button>
+				<form action="#" class="popup__form form-popup">
+					<h1 class="form-popup__title">Вход</h1>
+					<input id="email" autocomplete="off" type="email" name="Email" data-error="Ошибка" placeholder="Email" class="form-popup__input input">
+					<input id="password" autocomplete="off" type="password" name="Password" data-error="Ошибка" placeholder="Пароль" class="form-popup__input input">
+					<p data-popup="#popupRecovery" class="form-popup__text form-popup__text_r">Восстановить пароль</p>
+					<button class="form-popup__button bnt-active" type="submit">Войти</button>
+					<button data-popup="#popupReg" class="form-popup__button">Регистрация</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="popupReg" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close _icon-ic-close"></button>
+				<form action="#" class="popup__form form-popup">
+					<h1 class="form-popup__title">Регистрация</h1>
+					<input autocomplete="off" type="email" name="Email" data-error="Ошибка" placeholder="Email" class="form-popup__input input">
+					<input autocomplete="off" type="password" name="Password" data-error="Ошибка" placeholder="Пароль" class="form-popup__input input">
+					<p class="form-popup__text form-popup__text_t">Регистрируясь на сайте, вы соглашаетесь с нашими Правилами и Политикой конфиденциальности и соглашаетесь на информационную рассылку.</p>
+					<button class="form-popup__button bnt-active" type="submit">Зарегистрироваться</button>
+					<button data-popup="#popupSignIn" class="form-popup__button">Войти</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="popupRecovery" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close _icon-ic-close"></button>
+				<form action="#" class="popup__form form-popup">
+					<h1 class="form-popup__title">Восстановление пароля</h1>
+					<p class="form-popup__text">Для получения временного пароля необходимо ввести email, указанный при регистрации.</p>
+					<input autocomplete="off" type="email" name="Email" data-error="Ошибка" placeholder="Email" class="form-popup__input input">
+					<p class="form-popup__text">Срок действия временного пароля 24 ч.</p>
+					<button class="form-popup__button bnt-active" type="submit">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="popupFeedback" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close _icon-ic-close"></button>
+				<form action="#" class="popup__form form-popup">
+					<h1 class="form-popup__title">Обратная связь</h1>
+					<p class="form-popup__text">Заполните пожалуйста поля ниже, чтобы мы могли связаться с вами</p>
+					<input autocomplete="off" type="name" name="name" placeholder="Ваше имя" class="form-popup__input input">
+					<input autocomplete="off" type="email, tel" name="Email" data-error="Ошибка" placeholder="Телефон или Email" class="form-popup__input input">
+					<textarea name="text" placeholder="Комментарий" class="form-popup__input input"></textarea>
+					<button class="form-popup__button bnt-active" type="submit">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="popupImage" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popupImage__content">
+				<button data-close type="button" class="popup__close _icon-close"></button>
+				<img alt="">
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230315004824"></script>
+</body>
+
+</html>
